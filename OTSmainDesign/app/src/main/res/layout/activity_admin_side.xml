@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".AdminSide">
+
+    <Button
+        android:id="@+id/cus_dets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:background="@drawable/button_round_corner"
+        android:text="View Customer details"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/mer_dets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cus_dets"
+        android:layout_margin="14dp"
+        android:background="@drawable/button_round_corner"
+        android:text="View Mercchant details"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/shop_dets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mer_dets"
+        android:layout_margin="14dp"
+        android:background="@drawable/button_round_corner"
+        android:text="View Restorent details"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/reports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shop_dets"
+        android:layout_margin="14dp"
+        android:background="@drawable/button_round_corner"
+        android:onClick="gotoreports"
+        android:text="Reports"
+        android:textColor="@color/white" />
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paytm_payment">
+
+    <ImageView
+        android:id="@+id/ptm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/paytm" />
+
+    <EditText
+        android:id="@+id/ptmno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ptm"
+        android:layout_margin="16dp"
+        android:hint="Enter Register Mobile No"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/ptmname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ptmno"
+        android:layout_margin="16dp"
+        android:hint="Enter Name"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvfdPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ptmname"
+        android:layout_margin="16dp"
+        android:text="total amt"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvfdPrice"
+        android:onClick="btn_pay"
+        android:background="@drawable/button_round_corner"
+        android:text="Pay"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

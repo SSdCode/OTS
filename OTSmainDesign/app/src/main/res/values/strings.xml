@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Online Tiffin Service</string>
+
+    <string-array name="utype">
+        <item>Login as Customer</item>
+        <item>Login as Merchant</item>
+    </string-array>
+    <string-array name="food_type">
+        <item>VEG</item>
+        <item>NON VEG</item>
+    </string-array>
+</resources>
