@@ -11,6 +11,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.otsmaindesign.fragments.AccountFragment;
+import com.example.otsmaindesign.fragments.CardFragment;
+import com.example.otsmaindesign.fragments.MenuFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class LoginUser extends AppCompatActivity {
@@ -20,8 +23,7 @@ public class LoginUser extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_user);
-
-
+        
         Intent i = getIntent();
         final String Name = i.getStringExtra("username");
         contexOfApplication = getApplicationContext();

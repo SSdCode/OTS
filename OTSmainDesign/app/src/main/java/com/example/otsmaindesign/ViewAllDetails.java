@@ -11,12 +11,12 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
+import com.example.otsmaindesign.database.DatabaseHelper;
+
 import java.util.ArrayList;
 
 public class ViewAllDetails extends AppCompatActivity {
     ListView listView;
-    ArrayList<String> listItems = new ArrayList<String>();
-    ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

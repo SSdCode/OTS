@@ -17,6 +17,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.example.otsmaindesign.database.DatabaseHelper;
+
 public class SignUpActivity extends AppCompatActivity {
     Button btn;
     EditText fname, lname, city, email, mo, pass1, pass2;
@@ -26,6 +28,7 @@ public class SignUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+
         casting();
         btn = (Button) findViewById(R.id.btnSub);
         final CheckBox CBViewHidePass = (CheckBox) findViewById(R.id.cbox);

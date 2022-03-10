@@ -1,4 +1,4 @@
-package com.example.otsmaindesign;
+package com.example.otsmaindesign.otherclasses;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

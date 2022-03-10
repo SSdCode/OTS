@@ -1,4 +1,4 @@
-package com.example.otsmaindesign;
+package com.example.otsmaindesign.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.otsmaindesign.models.ModelClass;
+import com.example.otsmaindesign.R;
 
 import java.util.ArrayList;
 
@@ -74,6 +77,7 @@ public class Cart_RvAdapter extends RecyclerView.Adapter<Cart_RvAdapter.RVViewHo
             imageView = itemView.findViewById(R.id.food_image);
             fdName = itemView.findViewById(R.id.food_detsTV);
             total_amt = itemView.findViewById(R.id.total_amt);
+
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

@@ -1,25 +1,20 @@
-package com.example.otsmaindesign;
+package com.example.otsmaindesign.fragments;
 
 
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
+import com.example.otsmaindesign.CartItemPayment;
+import com.example.otsmaindesign.adapter.Cart_RvAdapter;
+import com.example.otsmaindesign.database.DatabaseHelper;
+import com.example.otsmaindesign.R;
 
 
 /**

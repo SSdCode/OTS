@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
-        <activity android:name=".Paytm_payment"></activity>
+        <activity android:name=".Paytm_payment"/>
         <activity android:name=".Reports" />
         <activity android:name=".CartItemPayment" />
         <activity android:name=".MerchantFoodInfo" />

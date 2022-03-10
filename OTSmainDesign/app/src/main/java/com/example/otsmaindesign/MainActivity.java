@@ -13,8 +13,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.otsmaindesign.database.DatabaseHelper;
 
 public class MainActivity extends AppCompatActivity {
     Button RegLinkC;
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         RegLinkC =  findViewById(R.id.RegLink);
         btnLog =  findViewById(R.id.btnLogin);
         uname = findViewById(R.id.etUname);
@@ -91,8 +94,6 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             Toast.makeText(getApplicationContext(), "Enter valid details!", Toast.LENGTH_SHORT).show();
                         }
-
-
                     }//if close
                 }
             }

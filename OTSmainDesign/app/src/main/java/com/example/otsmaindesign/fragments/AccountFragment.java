@@ -1,4 +1,4 @@
-package com.example.otsmaindesign;
+package com.example.otsmaindesign.fragments;
 
 
 import android.content.Intent;
@@ -13,6 +13,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
+
+import com.example.otsmaindesign.database.DatabaseHelper;
+import com.example.otsmaindesign.MainActivity;
+import com.example.otsmaindesign.R;
 
 
 /**

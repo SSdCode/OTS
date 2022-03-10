@@ -1,12 +1,14 @@
 package com.example.otsmaindesign;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.widget.Toast;
+
+import com.example.otsmaindesign.adapter.RVAdapter;
+import com.example.otsmaindesign.database.DatabaseHelper;
 
 public class RestorentDetails extends AppCompatActivity {
     DatabaseHelper databaseHelper;

@@ -2,7 +2,6 @@ package com.example.otsmaindesign;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -10,10 +9,12 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.otsmaindesign.database.DatabaseHelper;
+import com.example.otsmaindesign.otherclasses.DbBitmapUtility;
 
 public class MerchantFoodInfo extends AppCompatActivity {
     TextView fdname, fdprice, fdabout, fdtype, restorent_address, restorent_name;

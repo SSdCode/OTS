@@ -1,4 +1,4 @@
-package com.example.otsmaindesign;
+package com.example.otsmaindesign.otherclasses;
 
 import android.content.Context;
 import android.widget.Toast;

@@ -1,7 +1,6 @@
 package com.example.otsmaindesign;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -9,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.otsmaindesign.database.DatabaseHelper;
 
 public class CartItemPayment extends AppCompatActivity {
     Button remove_from_cart, paytm, cod;

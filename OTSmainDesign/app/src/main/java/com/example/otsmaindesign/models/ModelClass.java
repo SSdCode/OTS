@@ -1,4 +1,4 @@
-package com.example.otsmaindesign;
+package com.example.otsmaindesign.models;
 
 import android.graphics.Bitmap;
 
