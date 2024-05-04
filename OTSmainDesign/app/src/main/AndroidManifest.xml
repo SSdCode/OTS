@@ -14,32 +14,57 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
-        <activity android:name=".Paytm_payment"/>
-        <activity android:name=".Reports" />
-        <activity android:name=".CartItemPayment" />
-        <activity android:name=".MerchantFoodInfo" />
-        <activity android:name=".FoodInfo" />
-        <activity android:name=".AddFoodDetails" />
-        <activity android:name=".RestorentDetails" />
-        <activity android:name=".AddShopDetails" />
-        <activity android:name=".ViewAllDetails" />
-        <activity android:name=".AdminSide" />
+        <activity
+            android:name=".Paytm_payment"
+            android:exported="true" />
+        <activity
+            android:name=".Reports"
+            android:exported="true" />
+        <activity
+            android:name=".CartItemPayment"
+            android:exported="true" />
+        <activity
+            android:name=".MerchantFoodInfo"
+            android:exported="true" />
+        <activity
+            android:name=".FoodInfo"
+            android:exported="true" />
+        <activity
+            android:name=".AddFoodDetails"
+            android:exported="true" />
+        <activity
+            android:name=".RestorentDetails"
+            android:exported="true" />
+        <activity
+            android:name=".AddShopDetails"
+            android:exported="true" />
+        <activity
+            android:name=".ViewAllDetails"
+            android:exported="true" />
+        <activity
+            android:name=".AdminSide"
+            android:exported="true" />
         <activity
             android:name=".AccountMerchant"
+            android:exported="true"
             android:label="Account" />
         <activity
             android:name=".LoginMerchant"
+            android:exported="true"
             android:label="Merchant"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LoginUser"
+            android:exported="true"
             android:label="Online Tiffin Service" />
         <activity
             android:name=".SignUpActivity"
+            android:exported="true"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity" />
         <activity
             android:name=".SplashScreen"
+            android:exported="true"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
